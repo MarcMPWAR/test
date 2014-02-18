@@ -1,5 +1,5 @@
 <?php
-
+//ESTO ES UN COMENTARIO
 spl_autoload_register(
     function( $classname )
     {
