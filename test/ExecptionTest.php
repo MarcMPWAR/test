@@ -1,5 +1,7 @@
 <?php
-class ExceptionTest extends PHPUnit_Framework_TestCase
+
+namespace Development;
+class ExceptionTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @expectedException        InvalidArgumentException

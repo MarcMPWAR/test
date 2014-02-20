@@ -1,5 +1,7 @@
 <?php
-class DataTest extends PHPUnit_Framework_TestCase
+
+namespace Development;
+class DataTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @dataProvider provider
