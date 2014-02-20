@@ -1,11 +1,12 @@
 <?php
-//ESTO ES UN COMENTARIO
+
 spl_autoload_register(
-    function( $classname )
+    function( $class_name )
     {
-        if ( false !== strpos( $classname, 'development\\'))
+        if ( false !== strpos( $class_name, 'Development\\' ) )
         {
-            include_once __DIR__ . '/../src/Money.php';
+            var_dump( __DIR__ . '/' . str_replace( 'Development\\', '', $class_name ) . '.php' );
+            include __DIR__ . '/' . str_replace( 'Development\\', '', $class_name ) . '.php';
         }
     }
 );

@@ -1,0 +1,3 @@
+[submodule "visualPhpUnit"]
+	path = visualPhpUnit
+	url = https://github.com/NSinopoli/VisualPHPUnit.git
