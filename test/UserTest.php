@@ -25,6 +25,6 @@ class UserTest extends \PHPUnit_Framework_TestCase
 
     public function tearDown()
     {
-        $this->mysqli->query("DROP TABLE 'test'.'user'");
+        //$this->mysqli->query("DROP TABLE 'test'.'user'");
     }
 }
