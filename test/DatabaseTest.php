@@ -6,7 +6,7 @@ class DatabaseTest extends \PHPUnit_Framework_TestCase
 {
 	public function testDatabaseWorking()
 	{
-		new \PDO( 'mysql:host=127.0.0.1; dbname=mpwar', 'user_test', 'passtest' );
+		new \PDO( 'mysql:host=127.0.0.1; dbname=mpwar', 'root', '' );
 		$this->assertTrue( true, 'La conexión ha fallado.' );
 	}
 
